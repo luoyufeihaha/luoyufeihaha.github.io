@@ -1,3 +1,9 @@
+# GitHub repositories to display on the repositories page
+github_users:
+  - luoyufeihaha
+
+repo_description_lines_max: 2
+
 github_users:
   - torvalds
   - alshedivat

@@ -1,3 +1,10 @@
+# Venue data for publication pages
+# Add your venues here
+# Format:
+# "Abbr":
+#   url: https://example.com
+#   color: "#hexcolor"
+
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
