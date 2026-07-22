@@ -242,7 +242,7 @@ plugins:
   - jekyll-cache-bust
   - jekyll-email-protect
   - jekyll-feed
-  - jekyll-get-json
+  # - jekyll-get-json  # disabled: resume.json deleted
   - jekyll-imagemagick
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
@@ -261,10 +261,10 @@ plugins:
   # al-folio plugins
   - al_folio_core
   - al_icons
-  - al_folio_cv
+  # - al_folio_cv  # disabled: CV feature off, cv.yml deleted
   - al_folio_distill
   - al_folio_upgrade
-  - al_folio_bootstrap_compat
+  # - al_folio_bootstrap_compat  # disabled: bootstrap compat off
   - al_cookie
   - al_analytics
   - al_citations
