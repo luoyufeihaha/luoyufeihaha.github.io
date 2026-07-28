@@ -36,6 +36,8 @@ on:
 
 jobs:
   visual-regression:
+    # Upstream parity snapshots are meaningful only in the al-folio template repository.
+    if: github.repository == 'alshedivat/al-folio'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
