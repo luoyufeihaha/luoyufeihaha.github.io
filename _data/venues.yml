@@ -1,16 +1,18 @@
-# Venue data for publication pages
-# Add your venues here
-# Format:
-# "Abbr":
-#   url: https://example.com
-#   color: "#hexcolor"
+# Venue links used by publication badges.
+"TIFS":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206
 
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ICASSP":
+  url: https://2026.ieeeicassp.org/
 
-"PhysRev":
-  url: https://journals.aps.org/
+"IH&MMSec":
+  url: https://dl.acm.org/doi/proceedings/10.1145/3733102
 
-"Vision":
-  color: "#009f36"
+"ICCES":
+  url: https://www.iccesconf.org/
+
+"SPL":
+  url: https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters
+
+"Manuscript":
+  color: "#6c757d"
