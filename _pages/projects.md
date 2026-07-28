@@ -6,8 +6,10 @@ description: Research projects on LLM Agents, Structured Memory, and Steganalysi
 nav: true
 nav_order: 2
 display_categories: []
-horizontal: false
+horizontal: true
 ---
+
+My research centers on reliable intelligent systems: how agents can retain and use experience over long horizons, and how learning systems can remain robust when data conditions change. The projects below summarize the public scope of my work and link to the corresponding publications where available.
 
 <!-- pages/projects.md -->
 <div class="projects">
