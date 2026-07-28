@@ -1,20 +1,7 @@
-# GitHub repositories to display on the repositories page
+# GitHub account used if a repository page is enabled in the future.
 github_users:
   - luoyufeihaha
 
 repo_description_lines_max: 2
 
-github_users:
-  - torvalds
-  - alshedivat
-
-repo_description_lines_max: 2
-
-github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+github_repos: []
