@@ -5,7 +5,6 @@ permalink: /research/
 description: Research projects on LLM Agents, Structured Memory, and Steganalysis.
 nav: true
 nav_order: 2
-display_categories: []
 horizontal: true
 ---
 
