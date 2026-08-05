@@ -102,6 +102,18 @@ body {
   padding: clamp(2.5rem, 6vw, 5rem) 0 clamp(4rem, 8vw, 7rem);
 }
 
+.research-hero__avatar {
+  display: block;
+  width: clamp(5.25rem, 9vw, 7.5rem);
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  margin: 0 0 1.75rem;
+  border: 1px solid var(--rh-line);
+  border-radius: 50%;
+  box-shadow: 0 12px 32px rgb(0 0 0 / 10%);
+}
+
 .research-eyebrow,
 .research-kicker {
   margin: 0 0 1rem;
@@ -654,6 +666,11 @@ footer {
 @media (max-width: 575px) {
   .research-home {
     padding-top: 0;
+  }
+
+  .research-hero__avatar {
+    width: 4.75rem;
+    margin-bottom: 1.4rem;
   }
 
   .research-hero {

@@ -26,6 +26,7 @@ latest_posts:
 <div class="research-home">
   <section class="research-hero" aria-labelledby="researcher-name">
     <div class="research-hero__copy">
+      <img class="research-hero__avatar" src="{{ '/assets/img/profile_avatar.jpg' | relative_url | bust_file_cache }}" alt="Portrait of Yufei Luo" width="800" height="800" loading="eager">
       <p class="research-eyebrow">LLM Agents · Structured Memory · Experience Reuse</p>
       <h1 id="researcher-name">Yufei Luo</h1>
       <p class="research-hero__lede">
