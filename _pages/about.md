@@ -21,12 +21,12 @@ latest_posts:
   limit: 3
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/research-home.css' | relative_url | bust_file_cache }}">
+<link rel="stylesheet" href="{{ '/assets/css/research-home.css' | relative_url }}">
 
 <div class="research-home">
   <aside class="profile-sidebar" aria-labelledby="researcher-name">
     <div class="profile-sidebar__inner">
-      <img class="profile-sidebar__avatar" src="{{ '/assets/img/profile_avatar.jpg' | relative_url | bust_file_cache }}" alt="Portrait of Yufei Luo" width="800" height="800" loading="eager">
+      <img class="profile-sidebar__avatar" src="{{ '/assets/img/profile_avatar.jpg' | relative_url }}" alt="Portrait of Yufei Luo" width="800" height="800" loading="eager">
 
       <h1 id="researcher-name">Yufei Luo</h1>
       <p class="profile-sidebar__positioning">{{ page.subtitle }}</p>
