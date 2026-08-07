@@ -32,14 +32,14 @@ latest_posts:
       <p class="profile-sidebar__positioning">{{ page.subtitle }}</p>
 
       <nav class="profile-sidebar__links" aria-label="Academic profiles">
-        <a href="https://scholar.google.com/citations?user=w7A8DdIAAAAJ" aria-label="Google Scholar" title="Google Scholar">
-          <i class="ai ai-google-scholar" aria-hidden="true"></i>
+        <a href="https://scholar.google.com/citations?user=w7A8DdIAAAAJ">
+          <i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span>
         </a>
-        <a href="https://github.com/luoyufeihaha" aria-label="GitHub" title="GitHub">
-          <i class="fa-brands fa-github" aria-hidden="true"></i>
+        <a href="https://github.com/luoyufeihaha">
+          <i class="fa-brands fa-github" aria-hidden="true"></i><span>GitHub</span>
         </a>
-        <a href="https://orcid.org/0009-0005-4791-1228" aria-label="ORCID" title="ORCID">
-          <i class="ai ai-orcid" aria-hidden="true"></i>
+        <a href="https://orcid.org/0009-0005-4791-1228">
+          <i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span>
         </a>
       </nav>
 
