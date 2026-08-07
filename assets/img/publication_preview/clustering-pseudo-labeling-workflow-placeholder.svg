@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">Clustering-driven pseudo-labeling workflow placeholder</title>
+  <desc id="desc">Temporary workflow diagram placeholder for the clustering-driven pseudo-labeling publication.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#4772c5"/>
+    </marker>
+  </defs>
+  <rect width="640" height="400" rx="24" fill="#f7f9fc"/>
+  <text x="40" y="54" fill="#132238" font-family="Arial, sans-serif" font-size="25" font-weight="700">Clustering-Driven Pseudo-Labeling</text>
+  <text x="40" y="84" fill="#5b6b80" font-family="Arial, sans-serif" font-size="15">Workflow figure placeholder</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="38" y="146" width="126" height="112" rx="16" fill="#e8f0ff" stroke="#8ca9dc" stroke-width="2"/>
+    <text x="101" y="194" fill="#245fca" font-size="17" font-weight="700">Unlabeled</text>
+    <text x="101" y="220" fill="#5b6b80" font-size="14">target data</text>
+    <path d="M174 202H224" stroke="#4772c5" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="234" y="146" width="126" height="112" rx="16" fill="#ffffff" stroke="#8ca9dc" stroke-width="2"/>
+    <circle cx="278" cy="190" r="8" fill="#4772c5"/>
+    <circle cx="307" cy="181" r="8" fill="#4772c5"/>
+    <circle cx="322" cy="214" r="8" fill="#65a88a"/>
+    <circle cx="282" cy="223" r="8" fill="#65a88a"/>
+    <text x="297" y="250" fill="#132238" font-size="16" font-weight="700">Clustering</text>
+    <path d="M370 202H420" stroke="#4772c5" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="430" y="146" width="172" height="112" rx="16" fill="#eef8f4" stroke="#65a88a" stroke-width="2"/>
+    <text x="516" y="189" fill="#2f7e61" font-size="17" font-weight="700">Pseudo-labels</text>
+    <text x="516" y="216" fill="#5b6b80" font-size="14">adapted detector</text>
+  </g>
+  <rect x="40" y="336" width="560" height="34" rx="17" fill="#eef2f7"/>
+  <text x="320" y="358" fill="#8494a7" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Replace with the final paper workflow figure</text>
+</svg>
