@@ -43,11 +43,6 @@ latest_posts:
         </a>
       </nav>
 
-      <p class="profile-sidebar__location">
-        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
-        Beijing, China
-      </p>
-
       <section class="profile-interests" aria-labelledby="research-interests-title">
         <h2 id="research-interests-title">Research Interests</h2>
         <ul>
@@ -75,7 +70,7 @@ latest_posts:
           <a href="{{ '/research/memsif/' | relative_url }}">MemSIF</a>, transforms long-term interaction histories into structured representations and query-adaptive fact memories.
         </p>
         <p>
-          Previously, I developed robust learning methods for linguistic steganalysis under distribution shift and worked on multimodal and multi-turn intent recognition at Lenovo Research. I completed an M.S. in Cyberspace Security at Beijing University of Posts and Telecommunications.
+          Previously, I developed robust learning methods for linguistic steganalysis under distribution shift and worked on multimodal and multi-turn intent recognition at Lenovo Research. I completed an M.S. in Cyberspace Security at Beijing University of Posts and Telecommunications, after earning a B.S. in Mathematics and Applied Mathematics from Nanchang University.
         </p>
       </div>
     </section>
@@ -83,8 +78,8 @@ latest_posts:
     <section class="research-section research-selected" aria-labelledby="selected-publications-title">
       <div class="research-section__heading research-section__heading--with-link">
         <h2 id="selected-publications-title">Selected Publications</h2>
-        <a class="research-section__link" href="{{ '/publications/' | relative_url }}">
-          View all <span aria-hidden="true">→</span>
+        <a class="research-section__link" href="https://scholar.google.com/citations?user=w7A8DdIAAAAJ" target="_blank" rel="noopener noreferrer">
+          Google Scholar <span aria-hidden="true">↗</span>
         </a>
       </div>
 
@@ -117,6 +112,72 @@ latest_posts:
           <h3>Experience reuse</h3>
           <p>Turning prior interactions into reusable knowledge, strategies, and capabilities.</p>
         </article>
+      </div>
+    </section>
+
+    <section class="research-section research-honors" aria-labelledby="selected-honors-title">
+      <div class="research-section__heading">
+        <h2 id="selected-honors-title">Selected Honors</h2>
+      </div>
+
+      <ol class="research-honors__list">
+        <li>
+          <span class="research-honors__year">2026</span>
+          <div>
+            <h3>Beijing Outstanding Graduate <span class="research-honors__note">(Top 5%)</span></h3>
+            <p>Beijing Municipal Education Commission</p>
+          </div>
+        </li>
+        <li>
+          <span class="research-honors__year">2025</span>
+          <div>
+            <h3>National Scholarship for Graduate Students</h3>
+            <p>Ministry of Education of China</p>
+          </div>
+        </li>
+        <li>
+          <span class="research-honors__year">2025</span>
+          <div>
+            <h3>Open Source Security Award <span class="research-honors__note">(Third Prize)</span></h3>
+            <p>China Cybersecurity Association</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    {% if site.posts.size > 0 %}
+      <section class="research-section research-writing" aria-labelledby="recent-writing-title">
+        <div class="research-section__heading research-section__heading--with-link">
+          <h2 id="recent-writing-title">Recent Writing</h2>
+          <a class="research-section__link" href="{{ '/blog/' | relative_url }}">
+            View all <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <ol class="research-writing__list">
+          {% for post in site.posts limit: 3 %}
+            <li>
+              <p class="research-writing__meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+              <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+              {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+            </li>
+          {% endfor %}
+        </ol>
+      </section>
+    {% endif %}
+
+    <section class="research-section research-beyond" aria-labelledby="beyond-research-title">
+      <div class="research-section__heading research-section__heading--with-link">
+        <h2 id="beyond-research-title">Beyond Research</h2>
+        <a class="research-section__link" href="{{ '/beyond-research/' | relative_url }}">
+          More about me <span aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <div class="research-beyond__body">
+        <p>
+          Outside research, I enjoy <span class="content-placeholder">[interest]</span>, <span class="content-placeholder">[interest]</span>, and <span class="content-placeholder">[interest]</span>. I also keep notes on the books, tools, and experiences that shape how I think.
+        </p>
       </div>
     </section>
 

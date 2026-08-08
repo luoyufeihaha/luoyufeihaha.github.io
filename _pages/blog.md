@@ -1,8 +1,10 @@
 ---
 layout: default
 permalink: /blog/
-title: blog
-nav: false
+title: Blog
+description: Long-form notes on research, learning, tools, and ideas worth revisiting.
+nav: true
+nav_order: 3
 pagination:
   enabled: true
   collection: posts
@@ -27,6 +29,10 @@ pagination:
     <h2>{{ site.blog_description }}</h2>
   </div>
   {% endif %}
+
+<p class="blog-introduction">
+  I use this space for longer reflections on research, learning, tools, and ideas that I want to revisit over time.
+</p>
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
@@ -185,6 +191,13 @@ pagination:
     </li>
 
     {% endfor %}
+
+    {% if postlist.size == 0 %}
+      <li class="blog-empty-state">
+        <h3>Writing in progress</h3>
+        <p>The first long-form note is being prepared. Future essays will appear here in reverse chronological order.</p>
+      </li>
+    {% endif %}
 
   </ul>
 
