@@ -1,0 +1,45 @@
+/* Shared visual tokens for site-owned pages. */
+
+:root {
+  --c-bg: #fbfcfe;
+  --c-surface: #f4f7fb;
+  --c-surface-raised: #ffffff;
+  --c-ink: #132238;
+  --c-ink-muted: #5b6b80;
+  --c-ink-faint: #8494a7;
+  --c-accent: #245fca;
+  --c-accent-strong: #17499f;
+  --c-accent-soft: #e8f0ff;
+  --c-line: #dce4ef;
+  --c-card-shadow: 0 6px 18px rgb(19 34 56 / 8%);
+  --c-avatar-shadow: 0 12px 32px rgb(0 0 0 / 10%);
+  --global-bg-color: var(--c-bg);
+  --global-text-color: var(--c-ink);
+  --global-text-color-light: var(--c-ink-muted);
+  --global-theme-color: var(--c-accent);
+  --global-hover-color: var(--c-accent-strong);
+  --global-card-bg-color: var(--c-surface-raised);
+  --global-divider-color: var(--c-line);
+}
+
+html[data-theme="dark"] {
+  --c-bg: #10161e;
+  --c-surface: #17212d;
+  --c-surface-raised: #1b2735;
+  --c-ink: #f2f5fa;
+  --c-ink-muted: #a9b8ca;
+  --c-ink-faint: #8293a8;
+  --c-accent: #7facff;
+  --c-accent-strong: #a9c7ff;
+  --c-accent-soft: #1d3356;
+  --c-line: rgb(148 163 184 / 24%);
+  --c-card-shadow: none;
+  --c-avatar-shadow: 0 12px 32px rgb(0 0 0 / 28%);
+  --global-bg-color: var(--c-bg);
+  --global-text-color: var(--c-ink);
+  --global-text-color-light: var(--c-ink-muted);
+  --global-theme-color: var(--c-accent);
+  --global-hover-color: var(--c-accent-strong);
+  --global-card-bg-color: var(--c-surface-raised);
+  --global-divider-color: var(--c-line);
+}
