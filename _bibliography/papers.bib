@@ -1,16 +1,21 @@
-% Publication metadata was verified against publisher/Crossref records on 2026-07-28.
-% Do not add a submission venue for anonymous manuscripts.
+% Publication metadata was verified against publisher/Crossref/arXiv records on 2026-08-07.
+% Do not present a submission venue as an accepted publication venue.
 
-@unpublished{luo2026memsif,
+@article{luo2026memsif,
   title           = {{MemSIF}: From Structured Interactions to Dual-Track Fact Memory for {LLM} Agents},
-  author          = {Luo, Yufei and Yang, Zhen and others},
+  author          = {Luo, Yufei and Xu, Xiucheng and Yang, Zhen},
+  journal         = {arXiv preprint arXiv:2608.01742},
   year            = {2026},
-  note            = {Manuscript},
-  abbr            = {Manuscript},
+  doi             = {10.48550/arXiv.2608.01742},
+  arxiv           = {2608.01742},
+  pdf             = {https://arxiv.org/pdf/2608.01742},
+  code            = {https://github.com/luoyufeihaha/MemSIF},
+  abbr            = {arXiv},
+  preview         = {memsif-structured-interaction-and-dual-track-fact-memory-overview.png},
   selected        = {true},
   bibtex_show     = {true},
-  additional_info = {Introduces MemSIF, a structured memory framework that transforms long-term interaction histories into reusable representations and maintains stable and query-activated facts for reliable LLM agents. Preprint link and complete author list forthcoming.},
-  abstract        = {Long-term memory is critical for LLM agents in long-horizon interactions, yet real interaction histories exhibit Temporal--Structural Misalignment and Delayed Utility Manifestation. MemSIF organizes raw interactions into Structured Interaction Memory and combines CoreFact for stable fact consolidation with ActiveFact for query-driven dynamic fact activation.}
+  note            = {<span class="publication-impact">Introduces a structured interaction-to-fact memory framework that achieves the highest Total ACC across all evaluated settings on LoCoMo and LongMemEval-S.</span>},
+  abstract        = {Long-term memory is critical for LLM agents operating over long-horizon interactions, yet existing memory systems exhibit Temporal--Structural Misalignment and Delayed Utility Manifestation. MemSIF combines Structured Interaction Memory with Dual-Track Fact Memory: CoreFact consolidates stable, schema-guided information at write time, while ActiveFact forms and promotes reusable facts when their utility emerges through later queries. Across five backbone LLMs, MemSIF achieves the highest Total ACC in all evaluated settings on LoCoMo and LongMemEval-S.}
 }
 
 @inproceedings{luo2026contrastive,
@@ -22,9 +27,10 @@
   doi          = {10.1109/ICASSP55912.2026.11462507},
   html         = {https://doi.org/10.1109/ICASSP55912.2026.11462507},
   abbr         = {ICASSP},
+  preview      = {contrastive-hypersphere-workflow-placeholder.svg},
   selected     = {true},
   bibtex_show  = {true},
-  additional_info = {Develops contrastive hypersphere learning for one-class linguistic steganalysis when only cover-text examples are available during training.}
+  note         = {<span class="publication-impact">Develops contrastive hypersphere learning for one-class linguistic steganalysis when only cover-text examples are available during training.</span>}
 }
 
 @article{yang2026tasdf,
@@ -37,6 +43,7 @@
   doi         = {10.1109/LSP.2026.3653625},
   html        = {https://doi.org/10.1109/LSP.2026.3653625},
   abbr        = {SPL},
+  preview     = {text-audio-steganography-workflow-placeholder.svg},
   selected    = {false},
   bibtex_show = {true}
 }
@@ -51,10 +58,11 @@
   doi             = {10.1109/TIFS.2025.3569409},
   html            = {https://doi.org/10.1109/TIFS.2025.3569409},
   abbr            = {TIFS},
+  preview         = {class-aware-domain-adaptation-workflow-placeholder.svg},
   selected        = {true},
   bibtex_show     = {true},
   annotation      = {Zhen Yang and Yufei Luo contributed equally to this work.},
-  additional_info = {Develops class-aware adversarial adaptation to transfer linguistic steganalysis across domains while preserving class-discriminative structure. * Equal contribution: Zhen Yang and Yufei Luo.}
+  note            = {<span class="publication-impact">Develops class-aware adversarial adaptation to transfer linguistic steganalysis across domains while preserving class-discriminative structure.</span>}
 }
 
 @inproceedings{luo2025clustering,
@@ -66,9 +74,10 @@
   doi         = {10.1145/3733102.3733114},
   html        = {https://doi.org/10.1145/3733102.3733114},
   abbr        = {IH&MMSec},
+  preview     = {clustering-pseudo-labeling-workflow-placeholder.svg},
   selected    = {true},
   bibtex_show = {true},
-  additional_info = {Introduces clustering-driven pseudo-labeling for source-free adaptation, enabling linguistic steganalysis without access to the original source-domain data.}
+  note         = {<span class="publication-impact">Introduces clustering-driven pseudo-labeling for source-free adaptation, enabling linguistic steganalysis without access to the original source-domain data.</span>}
 }
 
 @article{niu2025domain,
@@ -81,6 +90,7 @@
   doi         = {10.1109/LSP.2025.3553427},
   html        = {https://doi.org/10.1109/LSP.2025.3553427},
   abbr        = {SPL},
+  preview     = {domain-assisted-few-shot-workflow-placeholder.svg},
   selected    = {false},
   bibtex_show = {true}
 }
@@ -97,6 +107,7 @@
   arxiv           = {2406.18565},
   html            = {https://doi.org/10.1007/978-3-031-82907-9_10},
   abbr            = {ICCES},
+  preview         = {zero-shot-pseudo-label-domain-adaptation-workflow-placeholder.svg},
   selected        = {false},
   bibtex_show     = {true},
   additional_info = {Presented at ICCES 2024; proceedings published in 2025.}

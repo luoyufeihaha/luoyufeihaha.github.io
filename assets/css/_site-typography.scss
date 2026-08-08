@@ -1,0 +1,44 @@
+/* Site-wide type system: one consistent, professional sans-serif family. */
+
+:root {
+  --site-font-sans: "Lato", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+}
+
+html,
+body {
+  font-family: var(--site-font-sans);
+}
+
+body {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--site-font-sans);
+  font-weight: 700;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+}
+
+.publications .title,
+.post-title,
+.navbar-brand {
+  font-weight: 700;
+}
+
+.publications .author,
+.publications .periodical,
+.publications .publication-impact {
+  font-weight: 400;
+}

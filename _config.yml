@@ -121,8 +121,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Yufei Luo # blog_name will be displayed in your blog page
-blog_description: Research thoughts and technical notes
+blog_name: Long-form Notes # blog_name will be displayed in your blog page
+blog_description: Research, learning, tools, and ideas worth revisiting over time
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -184,6 +184,9 @@ collections:
     output: true
   projects:
     output: true
+  beyond_entries:
+    output: true
+    permalink: /beyond-research/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -518,7 +521,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css?family=Lato:400,700|Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:
