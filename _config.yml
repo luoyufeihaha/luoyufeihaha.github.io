@@ -184,6 +184,9 @@ collections:
     output: true
   projects:
     output: true
+  beyond_entries:
+    output: true
+    permalink: /beyond-research/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
