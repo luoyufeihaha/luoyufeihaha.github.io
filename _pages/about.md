@@ -86,8 +86,8 @@ latest_posts:
       </div>
 
       <div class="research-agenda__intro">
-        <h3>Three foundations for reliable agents</h3>
-        <p>I investigate how external memory and reusable experience can improve reliability beyond a model's immediate context window.</p>
+        <h3>Research directions for reliable agents</h3>
+        <p>I investigate how structured execution state, external memory, and reusable experience can improve agent reliability across long-horizon tasks.</p>
       </div>
 
       <div class="research-agenda__grid">
@@ -99,7 +99,7 @@ latest_posts:
         <article class="research-interest-card">
           <span class="research-interest-card__number">02</span>
           <h3>Structured memory</h3>
-          <p>Preserving relevant facts, context, and execution progress in explicit representations.</p>
+          <p>Organizing task-relevant facts, context, and execution progress into explicit state representations.</p>
         </article>
         <article class="research-interest-card">
           <span class="research-interest-card__number">03</span>
@@ -181,7 +181,7 @@ latest_posts:
       </div>
 
       <div class="research-contact__body">
-        <p class="research-contact__prompt">Interested in reliable and memory-augmented agents?</p>
+        <p class="research-contact__prompt">Interested in reliable long-horizon agents?</p>
         <p>I am seeking Ph.D. opportunities beginning in Fall 2027.</p>
         <a href="mailto:luoyf@bupt.edu.cn">luoyf@bupt.edu.cn <span aria-hidden="true">↗</span></a>
       </div>
