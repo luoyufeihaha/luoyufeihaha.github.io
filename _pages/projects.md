@@ -74,7 +74,7 @@ My research centers on reliable intelligent systems: how agents can retain and u
     <div class="industry-experience__header">
       <div>
         <p class="industry-experience__role">Research Intern</p>
-        <h3>Lenovo Research</h3>
+        <h3>Lenovo Research Institute</h3>
       </div>
       <p class="industry-experience__period">
         <time datetime="2025-07">Jul 2025</time> – <time datetime="2026-01">Jan 2026</time>

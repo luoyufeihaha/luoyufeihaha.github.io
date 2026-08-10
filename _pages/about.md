@@ -64,7 +64,7 @@ latest_posts:
           <a href="{{ '/research/memsif/' | relative_url }}">MemSIF</a>, transforms long-term interaction histories into structured representations and query-adaptive fact memories.
         </p>
         <p>
-          Previously, I developed robust learning methods for linguistic steganalysis under distribution shift and worked on multimodal and multi-turn intent recognition at Lenovo Research. I completed an M.S. in Cyberspace Security at Beijing University of Posts and Telecommunications, after earning a B.S. in Mathematics and Applied Mathematics from Nanchang University.
+          Previously, I developed robust learning methods for linguistic steganalysis under distribution shift and worked on multimodal and multi-turn intent recognition at Lenovo Research Institute. I completed an M.S. in Cyberspace Security at Beijing University of Posts and Telecommunications, after earning a B.S. in Mathematics and Applied Mathematics from Nanchang University.
         </p>
       </div>
     </section>

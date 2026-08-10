@@ -8,7 +8,7 @@ permalink: /research/intent-recognition/
 
 ## Research Scope
 
-During a research internship at Lenovo Research, I worked on LLM-based multimodal and multi-turn intent recognition. The project examined how a system can interpret user intent when relevant evidence is distributed across different modalities or multiple dialogue turns.
+During a research internship at Lenovo Research Institute, I worked on LLM-based multimodal and multi-turn intent recognition. The project examined how a system can interpret user intent when relevant evidence is distributed across different modalities or multiple dialogue turns.
 
 ## Focus
 
