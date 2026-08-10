@@ -196,27 +196,27 @@
 
 html[data-theme="dark"] .blog-index::before {
   background:
-    radial-gradient(circle at 12% 10%, rgb(56 107 190 / 20%), transparent 30rem),
-    radial-gradient(circle at 88% 32%, rgb(48 80 129 / 13%), transparent 25rem), linear-gradient(145deg, #0a111a 0%, #101a26 50%, #0b121b 100%);
+    radial-gradient(circle at 12% 10%, rgb(156 180 220 / 13%), transparent 30rem),
+    radial-gradient(circle at 88% 32%, rgb(132 154 190 / 10%), transparent 25rem), linear-gradient(145deg, #202329 0%, #2a2e34 50%, #22252a 100%);
 }
 
 html[data-theme="dark"] .blog-hero,
 html[data-theme="dark"] .blog-card,
 html[data-theme="dark"] .blog-taxonomy a,
 html[data-theme="dark"] .blog-empty-state {
-  border-color: rgb(148 163 184 / 20%);
-  background: rgb(20 30 43 / 78%);
-  box-shadow: 0 20px 58px rgb(0 0 0 / 22%);
+  border-color: rgb(222 218 210 / 17%);
+  background: rgb(49 54 61 / 84%);
+  box-shadow: 0 20px 58px rgb(0 0 0 / 18%);
   backdrop-filter: blur(16px) saturate(120%);
 }
 
 html[data-theme="dark"] .blog-hero {
-  background: linear-gradient(115deg, rgb(49 96 170 / 22%), transparent 58%), rgb(20 30 43 / 78%);
+  background: linear-gradient(115deg, rgb(156 180 220 / 15%), transparent 58%), rgb(49 54 61 / 84%);
 }
 
 html[data-theme="dark"] .blog-card:hover {
   border-color: color-mix(in srgb, var(--c-accent) 62%, transparent);
-  background: rgb(24 37 53 / 88%);
+  background: rgb(57 63 72 / 92%);
 }
 
 .blog-card__featured {

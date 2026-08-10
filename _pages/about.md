@@ -32,6 +32,9 @@ latest_posts:
       <p class="profile-sidebar__positioning">{{ page.subtitle }}</p>
 
       <nav class="profile-sidebar__links" aria-label="Academic profiles">
+        <a href="mailto:luoyf@bupt.edu.cn">
+          <i class="fa-regular fa-envelope" aria-hidden="true"></i><span>Email</span>
+        </a>
         <a href="https://scholar.google.com/citations?user=w7A8DdIAAAAJ">
           <i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span>
         </a>
@@ -42,15 +45,6 @@ latest_posts:
           <i class="ai ai-orcid" aria-hidden="true"></i><span>ORCID</span>
         </a>
       </nav>
-
-      <section class="profile-interests" aria-labelledby="research-interests-title">
-        <h2 id="research-interests-title">Research Interests</h2>
-        <ul>
-          <li>Reliable long-horizon agents</li>
-          <li>Structured memory</li>
-          <li>Experience reuse</li>
-        </ul>
-      </section>
     </div>
 
   </aside>
@@ -176,7 +170,7 @@ latest_posts:
 
       <div class="research-beyond__body">
         <p>
-          Outside research, I enjoy <span class="content-placeholder">[interest]</span>, <span class="content-placeholder">[interest]</span>, and <span class="content-placeholder">[interest]</span>. I also keep notes on the books, tools, and experiences that shape how I think.
+          Outside research, I enjoy motorcycle travel, reading, basketball, and badminton. I also keep notes on books, journeys, and everyday experiences that shape how I think.
         </p>
       </div>
     </section>

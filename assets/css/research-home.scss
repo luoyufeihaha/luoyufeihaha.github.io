@@ -17,20 +17,20 @@ body {
 }
 
 body > .container[role="main"] {
-  max-width: none;
-  padding-right: 0;
-  padding-left: 0;
+  max-width: 1320px;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 .research-home {
   display: grid;
   box-sizing: border-box;
   width: 100%;
-  max-width: none;
-  grid-template-columns: minmax(18rem, 1fr) minmax(0, 2fr);
-  gap: 3rem;
+  max-width: 1320px;
+  grid-template-columns: minmax(15rem, 18rem) minmax(0, 1fr);
+  gap: clamp(3rem, 4vw, 4rem);
   margin: 0 auto;
-  padding: 3rem 2rem 4.5rem;
+  padding: 3rem 0 4.5rem;
   color: var(--c-ink);
 }
 
@@ -119,39 +119,6 @@ body > .container[role="main"] {
   background: var(--c-accent-soft);
 }
 
-.profile-interests {
-  margin-top: 1.5rem;
-  padding: 1rem;
-  border: 1px solid var(--c-line);
-  border-radius: 0.75rem;
-  background: var(--c-surface);
-}
-
-.profile-interests h2 {
-  margin: 0 0 0.75rem;
-  color: var(--c-ink);
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.4;
-}
-
-.profile-interests ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.profile-interests li {
-  color: var(--c-ink-muted);
-  font-size: 0.875rem;
-  line-height: 1.6;
-}
-
-.profile-interests li + li {
-  margin-top: 0.25rem;
-}
-
 .research-content {
   min-width: 0;
 }
@@ -198,7 +165,7 @@ body > .container[role="main"] {
 }
 
 .research-about__body {
-  max-width: 84ch;
+  max-width: 74ch;
 }
 
 .research-about__body p {
@@ -637,6 +604,11 @@ footer.fixed-bottom {
 }
 
 @media (max-width: 991px) {
+  body > .container[role="main"] {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
   .research-home {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -646,12 +618,6 @@ footer.fixed-bottom {
   .profile-sidebar__avatar {
     width: 10rem;
     height: 10rem;
-  }
-
-  .profile-interests {
-    max-width: 30rem;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .research-section + .research-section {
@@ -676,6 +642,11 @@ footer.fixed-bottom {
 }
 
 @media (max-width: 767px) {
+  body > .container[role="main"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
   .research-home {
     padding-right: 1rem;
     padding-left: 1rem;
