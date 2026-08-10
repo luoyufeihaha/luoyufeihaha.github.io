@@ -1,5 +1,7 @@
 % Publication metadata was verified against publisher/Crossref/arXiv records on 2026-08-07.
 % Do not present a submission venue as an accepted publication venue.
+% Keep the selected homepage entries first and in representative-priority order:
+% MemSIF, TIFS, ICASSP, then IH&MMSec.
 
 @article{luo2026memsif,
   title           = {{MemSIF}: From Structured Interactions to Dual-Track Fact Memory for {LLM} Agents},
@@ -11,11 +13,29 @@
   pdf             = {https://arxiv.org/pdf/2608.01742},
   code            = {https://github.com/luoyufeihaha/MemSIF},
   abbr            = {arXiv},
-  preview         = {memsif-structured-interaction-and-dual-track-fact-memory-overview.png},
+  preview         = {memsif-framework.png},
   selected        = {true},
   bibtex_show     = {true},
   note            = {<span class="publication-impact">Introduces a structured interaction-to-fact memory framework that achieves the highest Total ACC across all evaluated settings on LoCoMo and LongMemEval-S.</span>},
   abstract        = {Long-term memory is critical for LLM agents operating over long-horizon interactions, yet existing memory systems exhibit Temporal--Structural Misalignment and Delayed Utility Manifestation. MemSIF combines Structured Interaction Memory with Dual-Track Fact Memory: CoreFact consolidates stable, schema-guided information at write time, while ActiveFact forms and promotes reusable facts when their utility emerges through later queries. Across five backbone LLMs, MemSIF achieves the highest Total ACC in all evaluated settings on LoCoMo and LongMemEval-S.}
+}
+
+@article{yang2025classaware,
+  title           = {Class-Aware Adversarial Unsupervised Domain Adaptation for Linguistic Steganalysis},
+  author          = {Yang, Zhen and Luo, Yufei and Yang, Jinshuai and Xu, Xin and Zhang, Ru and Huang, Yongfeng},
+  journal         = {IEEE Transactions on Information Forensics and Security},
+  volume          = {20},
+  pages           = {5181--5194},
+  year            = {2025},
+  doi             = {10.1109/TIFS.2025.3569409},
+  html            = {https://doi.org/10.1109/TIFS.2025.3569409},
+  code            = {https://github.com/luoyufeihaha/Class-Aware-Adversarial-Unsupervised-Domain-Adaptation-for-Linguistic-Steganalysis},
+  abbr            = {TIFS},
+  preview         = {class-aware-adversarial-domain-adaptation-framework.png},
+  selected        = {true},
+  bibtex_show     = {true},
+  annotation      = {Zhen Yang and Yufei Luo contributed equally to this work.},
+  note            = {<span class="publication-impact">Develops class-aware adversarial adaptation to transfer linguistic steganalysis across domains while preserving class-discriminative structure.</span>}
 }
 
 @inproceedings{luo2026contrastive,
@@ -26,8 +46,10 @@
   year         = {2026},
   doi          = {10.1109/ICASSP55912.2026.11462507},
   html         = {https://doi.org/10.1109/ICASSP55912.2026.11462507},
+  pdf          = {chls-one-class-linguistic-steganalysis.pdf},
+  code         = {https://github.com/luoyufeihaha/CHLS-One-Class-Linguistic-Steganalysis},
   abbr         = {ICASSP},
-  preview      = {contrastive-hypersphere-workflow-placeholder.svg},
+  preview      = {contrastive-hypersphere-framework.png},
   selected     = {true},
   bibtex_show  = {true},
   note         = {<span class="publication-impact">Develops contrastive hypersphere learning for one-class linguistic steganalysis when only cover-text examples are available during training.</span>}
@@ -48,23 +70,6 @@
   bibtex_show = {true}
 }
 
-@article{yang2025classaware,
-  title           = {Class-Aware Adversarial Unsupervised Domain Adaptation for Linguistic Steganalysis},
-  author          = {Yang, Zhen and Luo, Yufei and Yang, Jinshuai and Xu, Xin and Zhang, Ru and Huang, Yongfeng},
-  journal         = {IEEE Transactions on Information Forensics and Security},
-  volume          = {20},
-  pages           = {5181--5194},
-  year            = {2025},
-  doi             = {10.1109/TIFS.2025.3569409},
-  html            = {https://doi.org/10.1109/TIFS.2025.3569409},
-  abbr            = {TIFS},
-  preview         = {class-aware-domain-adaptation-workflow-placeholder.svg},
-  selected        = {true},
-  bibtex_show     = {true},
-  annotation      = {Zhen Yang and Yufei Luo contributed equally to this work.},
-  note            = {<span class="publication-impact">Develops class-aware adversarial adaptation to transfer linguistic steganalysis across domains while preserving class-discriminative structure.</span>}
-}
-
 @inproceedings{luo2025clustering,
   title       = {Clustering-Driven Pseudo-Labeling in Source-Free Domain Adaptation for Linguistic Steganalysis},
   author      = {Luo, Yufei and Yang, Zhen and Xu, Xin and Wang, Yelei and Zhang, Ru and Huang, Yongfeng},
@@ -73,9 +78,11 @@
   year        = {2025},
   doi         = {10.1145/3733102.3733114},
   html        = {https://doi.org/10.1145/3733102.3733114},
+  pdf         = {cpsls-source-free-linguistic-steganalysis.pdf},
+  code        = {https://github.com/luoyufeihaha/CPSLS-Source-Free-Linguistic-Steganalysis},
   abbr        = {IH&MMSec},
-  preview     = {clustering-pseudo-labeling-workflow-placeholder.svg},
-  selected    = {false},
+  preview     = {clustering-driven-pseudo-labeling-framework.png},
+  selected    = {true},
   bibtex_show = {true},
   note         = {<span class="publication-impact">Introduces clustering-driven pseudo-labeling for source-free adaptation, enabling linguistic steganalysis without access to the original source-domain data.</span>}
 }
