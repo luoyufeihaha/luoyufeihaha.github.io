@@ -1,27 +1,31 @@
 metadata:
-  last_updated: "2026-07-24"
+  last_updated: '2026-08-12'
 papers:
   w7A8DdIAAAAJ:2osOgNQ5qMEC:
     citations: 4
-    title: Domain-Assisted Few-Shot Linguistic Steganalysis in Imbalanced Class Scenarios
-    year: "2025"
+    title: Domain-assisted few-shot linguistic steganalysis in imbalanced class scenarios
+    year: '2025'
   w7A8DdIAAAAJ:9yKSN-GCB0IC:
-    citations: 8
+    citations: 7
     title: Pseudo-label based domain adaptation for zero-shot text steganalysis
-    year: "2024"
+    year: '2024'
   w7A8DdIAAAAJ:IjCSPb-OGe4C:
     citations: 0
     title: Ontrastive Hypersphere for One-Class Linguistic Steganalysis
-    year: "2026"
+    year: '2026'
   w7A8DdIAAAAJ:UeHWp8X0CEIC:
     citations: 0
-    title: "TASDF-Stega: High Capacity Secure Text-Audio Joint Steganography Using Diffusion Latent Space"
-    year: "2026"
+    title: 'TASDF-Stega: High Capacity Secure Text-Audio Joint Steganography Using Diffusion Latent Space'
+    year: '2026'
   w7A8DdIAAAAJ:d1gkVwhDpl0C:
     citations: 2
     title: Clustering-Driven Pseudo-Labeling in Source-Free Domain Adaptation for Linguistic Steganalysis
-    year: "2025"
+    year: '2025'
   w7A8DdIAAAAJ:qjMakFHDy7sC:
     citations: 10
     title: Class-aware adversarial unsupervised domain adaptation for linguistic steganalysis
-    year: "2025"
+    year: '2025'
+  w7A8DdIAAAAJ:zYLM7Y9cAGgC:
+    citations: 0
+    title: 'MemSIF: From Structured Interactions to Dual-Track Fact Memory for LLM Agents'
+    year: '2026'
