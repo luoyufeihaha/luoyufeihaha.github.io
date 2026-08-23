@@ -35,6 +35,9 @@ latest_posts:
         <a href="mailto:luoyf@bupt.edu.cn">
           <i class="fa-regular fa-envelope" aria-hidden="true"></i><span>Email</span>
         </a>
+        <a href="{{ '/assets/pdf/Yufei_Luo_CV.pdf' | relative_url }}" target="_blank" rel="noopener">
+          <i class="fa-regular fa-file-lines" aria-hidden="true"></i><span>CV</span>
+        </a>
         <a href="https://scholar.google.com/citations?user=w7A8DdIAAAAJ">
           <i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span>
         </a>
